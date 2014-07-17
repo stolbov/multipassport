@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="IE=edge" http-equiv="X-UA-Compatible">
+		<meta charset="utf-8">
+		<title>Тест API</title>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+		<style>
+			.btn{
+				width: 70px;
+				margin: 10px;
+				padding: 3px 10px;
+				background: #ccc;
+				border: 1px solid #999;
+				color: #333;
+				text-align: center;
+				cursor: pointer;
+			}
+			.btn:hover{
+				background: #999;
+			}
+		</style>
+	</head>
+	<body>
+		<h3>Create User</h3>
+		<div>
+			<input type="text" id="name" placeholder="Name" value="admin">
+		</div>
+		<div id="create" class="btn">Create</div>
+		<div id="console"></div>
+		<script>
+			var logNode = document.getElementById('console');
+
+
+			document.getElementById('create').onclick = function(){
+				var name = document.getElementById('name').value;
+				$.ajax({
+				  	url: 'http://localhost:1337/user/create',
+				  	type: 'PUT',
+				  	contentType: "application/json; charset=utf-8",
+				  	data: JSON.stringify({username: name, password: name}),
+				  	success: function(data) {
+				    	logNode.innerHTML = JSON.stringify(data);
+				  	},
+				  	error: function(err){
+				  		logNode.innerHTML = JSON.stringify(err);
+				  	}
+				});
+			}
+
+		</script>
+	</body>
+</html>

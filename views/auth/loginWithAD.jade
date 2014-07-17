@@ -1,0 +1,19 @@
+doctype html
+html
+	include ../header
+	body
+		div(class="logWrapper")
+			div(class="logItem") 
+				div(class="loginTitle")
+					Авторизоваться через Active Directory:
+				ul
+					li
+						a(href="/multilogin/adLogin", class="iconItem adItem", alt="Авторизоваться через Active Directory") войти
+			div(class="logItem") 
+				div(class="loginTitle")
+					Войти через соцсети:
+				ul
+					li
+						a(href="/multilogin/vk", class="iconItem vkItem", alt="Авторизоваться через Вконтакте") вконтакте
+					li
+						a(href="/multilogin/odnoklassniki", class="iconItem odnoklItem", alt="Авторизоваться через Одноклассники") вконтакте

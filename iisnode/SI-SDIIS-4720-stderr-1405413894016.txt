@@ -1,0 +1,7 @@
+Direct yaml files load via require() is deprecated! Use safeLoad() instead.
+[34mdebug[39m: --------------------------------------------------------
+[34mdebug[39m: :: Tue Jul 15 2014 12:44:54 GMT+0400 (Московское время (зима))
+[34mdebug[39m: 
+[34mdebug[39m: Environment	: development
+[34mdebug[39m: Port		: \\.\pipe\661add18-0dec-41e7-b00d-69b07dfba4b3
+[34mdebug[39m: --------------------------------------------------------

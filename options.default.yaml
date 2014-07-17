@@ -1,0 +1,23 @@
+database:
+  user: sa
+  password: Informatica21
+  server: si-sdsql
+  database: geoworks
+ldap:
+  - url: "ldap://informatica.ru/dc=informatica,dc=ru"
+    base: "dc=informatica,dc=ru"
+    bindDN: "gisuser@informatica.ru"
+    bindCredentials: Informatica21
+  - url: "ldap://informatica.ru/dc=informatica,dc=ru"
+    base: "dc=informatica,dc=ru"
+    bindDN: "gisuser@informatica.ru"
+    bindCredentials: Informatica21
+privIPs:
+  - start: 127.0.0.1
+    end: 127.0.0.1
+  - start: 110.10.0.0
+    end: 110.10.0.255
+  - start: 192.168.0.0
+    end: 192.168.255.255
+  - start: 10.0.0.0
+    end: 10.255.255.255

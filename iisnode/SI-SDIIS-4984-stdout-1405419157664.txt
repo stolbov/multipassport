@@ -1,0 +1,18 @@
+[32minfo[39m: 
+[32minfo[39m: 
+[32minfo[39m:    Sails.js           <|
+[32minfo[39m:    v0.9.16             |\
+[32minfo[39m:                       /|.\
+[32minfo[39m:                      / || \
+[32minfo[39m:                    ,'  |'  \
+[32minfo[39m:                 .-'.-==|/_--'
+[32minfo[39m:                 `--'-------' 
+[32minfo[39m:    __---___--___---___--___---___--___
+[32minfo[39m:  ____---___--___---___--___---___--___-__
+[32minfo[39m: 
+[32minfo[39m: Server lifted in `C:\nodeapps\nLogin`
+[32minfo[39m: To see your app, visit http://localhost:\\.\pipe\257208b5-aa4a-4079-948f-f6dea62669e7
+[32minfo[39m: To shut down Sails, press <CTRL> + C at any time.
+
+go to auth form...
+go to auth form...

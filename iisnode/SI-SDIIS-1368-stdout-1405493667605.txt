@@ -1,0 +1,60 @@
+[32minfo[39m: 
+[32minfo[39m: 
+[32minfo[39m:    Sails.js           <|
+[32minfo[39m:    v0.9.16             |\
+[32minfo[39m:                       /|.\
+[32minfo[39m:                      / || \
+[32minfo[39m:                    ,'  |'  \
+[32minfo[39m:                 .-'.-==|/_--'
+[32minfo[39m:                 `--'-------' 
+[32minfo[39m:    __---___--___---___--___---___--___
+[32minfo[39m:  ____---___--___---___--___---___--___-__
+[32minfo[39m: 
+[32minfo[39m: Server lifted in `C:\nodeapps\nLogin`
+[32minfo[39m: To see your app, visit http://localhost:\\.\pipe\497f767a-4409-495d-a34d-0fc626e92b29
+[32minfo[39m: To shut down Sails, press <CTRL> + C at any time.
+
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Wed Jul 16 2014 10:54:30 GMT+0400 (Московское время (зима)),
+  id: 1 }
+Token is valid
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Wed Jul 16 2014 10:55:06 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTZUMDY6NTQ6MDUuOTAzWiIsImlkIjoxLCJpYXQiOjE0MDU0OTM2NDYsImV4cCI6MTQwNTQ5MzcwNn0.rKA1lp68gO866BWhIVJX1i9OlipVgpcZrR4Hk-d1Qfk',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Wed Jul 16 2014 10:54:30 GMT+0400 (Московское время (зима)),
+     id: 1 } }
+
+-------------------------------------------
+
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'vk',
+  externalID: 87614291,
+  activeDirectoryStatus: '0',
+  createdAt: '2014-07-10T11:04:09.645Z',
+  updatedAt: '2014-07-15T11:39:23.961Z',
+  id: 3 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Wed Jul 16 2014 10:55:35 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoidmsiLCJleHRlcm5hbElEIjo4NzYxNDI5MSwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMCIsImNyZWF0ZWRBdCI6IjIwMTQtMDctMTBUMTE6MDQ6MDkuNjQ1WiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6Mzk6MjMuOTYxWiIsImlkIjozLCJpYXQiOjE0MDU0OTM2NzUsImV4cCI6MTQwNTQ5MzczNX0.Yl0Lc8nnm5RZ_AULfQ8wlmrXZb77sr0GuDKDZ4EsZEw',
+  adProfile: false }
+
+-------------------------------------------
+
+go to auth form...

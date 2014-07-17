@@ -1,0 +1,13 @@
+Direct yaml files load via require() is deprecated! Use safeLoad() instead.
+[34mdebug[39m: --------------------------------------------------------
+[34mdebug[39m: :: Wed Jul 16 2014 10:54:28 GMT+0400 (Московское время (зима))
+[34mdebug[39m: 
+[34mdebug[39m: Environment	: development
+[34mdebug[39m: Port		: \\.\pipe\497f767a-4409-495d-a34d-0fc626e92b29
+[34mdebug[39m: --------------------------------------------------------
+Warning: missing space before text for line 8 of jade file "C:\nodeapps\nLogin\views\auth\loginWithAD.jade"
+Warning: missing space before text for line 14 of jade file "C:\nodeapps\nLogin\views\auth\loginWithAD.jade"
+Warning: missing space before text for line 8 of jade file "C:\nodeapps\nLogin\views\auth\loginWithAD.jade"
+Warning: missing space before text for line 14 of jade file "C:\nodeapps\nLogin\views\auth\loginWithAD.jade"
+Warning: missing space before text for line 8 of jade file "C:\nodeapps\nLogin\views\auth\loginWithAD.jade"
+Warning: missing space before text for line 14 of jade file "C:\nodeapps\nLogin\views\auth\loginWithAD.jade"

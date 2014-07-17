@@ -1,0 +1,52 @@
+body{
+	background: #ECECEC;
+	font-size: 30px;
+	font-weight: bold;
+	color: #333;
+}
+.logWrapper{
+	width: 300px;
+	margin: 10% auto;
+}
+.logItem{
+	display: inline-block;
+	margin-bottom: 25px; 
+}
+.logItem ul{
+	margin: 0;
+	padding: 0;
+}
+.logItem ul li{
+	display: inline-block;
+	list-style: none;
+}
+.loginTitle{
+	display: none;
+	margin-bottom: 15px;
+}
+.iconItem{
+	display: block;
+	width: 90px;
+	height: 90px;
+	margin-right: 10px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+	transition: 300ms;
+}
+.iconItem:hover{
+	opacity: 1;
+}
+.adItem{
+	background-image: url('../images/AD.png');
+	background-size: 55px;
+	background-color: rgb(255, 214, 0);
+	background-position: 18px 16px;
+	border-radius: 71px;
+}
+.vkItem{
+	background-image: url('../images/B.png');
+}
+.odnoklItem{
+	background-image: url('../images/ok.png');
+}

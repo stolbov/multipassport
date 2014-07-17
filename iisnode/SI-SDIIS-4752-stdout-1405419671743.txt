@@ -1,0 +1,510 @@
+[32minfo[39m: 
+[32minfo[39m: 
+[32minfo[39m:    Sails.js           <|
+[32minfo[39m:    v0.9.16             |\
+[32minfo[39m:                       /|.\
+[32minfo[39m:                      / || \
+[32minfo[39m:                    ,'  |'  \
+[32minfo[39m:                 .-'.-==|/_--'
+[32minfo[39m:                 `--'-------' 
+[32minfo[39m:    __---___--___---___--___---___--___
+[32minfo[39m:  ____---___--___---___--___---___--___-__
+[32minfo[39m: 
+[32minfo[39m: Server lifted in `C:\nodeapps\nLogin`
+[32minfo[39m: To see your app, visit http://localhost:\\.\pipe\1b24a1bf-6aec-4ee9-8395-c56002d2dd82
+[32minfo[39m: To shut down Sails, press <CTRL> + C at any time.
+
+go to auth form...
+go to auth form...
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 15:00:41 GMT+0400 (Московское время (зима)),
+  id: 1 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 15:01:41 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6MDA6NDEuMTkxWiIsImlkIjoxLCJpYXQiOjE0MDU0MjIwNDEsImV4cCI6MTQwNTQyMjEwMX0.Tef4IzvuQUdIilXd__tG2qymkLgfeWvdqqB5j0yKZH4',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 15:00:41 GMT+0400 (Московское время (зима)),
+     id: 1,
+     iat: 1405422041,
+     exp: 1405422101 } }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  [Error: jwt expired]
+No token or token expired!
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 15:00:41 GMT+0400 (Московское время (зима)),
+  id: 1 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 15:40:17 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6MDA6NDEuMTkxWiIsImlkIjoxLCJpYXQiOjE0MDU0MjQzNTcsImV4cCI6MTQwNTQyNDQxN30.XZXIymQQFRD9u5bRg4ZOMDOtP8FJKni57ESQDSMnsX4',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 15:00:41 GMT+0400 (Московское время (зима)),
+     id: 1,
+     iat: 1405424357,
+     exp: 1405424417 } }
+
+-------------------------------------------
+
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'vk',
+  externalID: 87614291,
+  activeDirectoryStatus: '0',
+  createdAt: '2014-07-10T11:04:09.645Z',
+  updatedAt: '2014-07-14T13:28:14.659Z',
+  id: 3 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 15:40:22 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoidmsiLCJleHRlcm5hbElEIjo4NzYxNDI5MSwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMCIsImNyZWF0ZWRBdCI6IjIwMTQtMDctMTBUMTE6MDQ6MDkuNjQ1WiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTRUMTM6Mjg6MTQuNjU5WiIsImlkIjozLCJpYXQiOjE0MDU0MjQzNjIsImV4cCI6MTQwNTQyNDQyMn0.Cpb-MYTWlKTtBne3HQF4S8zqHcv9JLxToEgQEwWuNmY',
+  adProfile: false }
+
+-------------------------------------------
+
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 15:40:40 GMT+0400 (Московское время (зима)),
+  id: 1 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 15:41:41 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6NDA6NDAuNjg5WiIsImlkIjoxLCJpYXQiOjE0MDU0MjQ0NDEsImV4cCI6MTQwNTQyNDUwMX0.nm_V_5K5wwx1zNEu8JV4rbKbI0dow12_TBLlGSeZlTM',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 15:40:40 GMT+0400 (Московское время (зима)),
+     id: 1,
+     iat: 1405424441,
+     exp: 1405424501 } }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  [Error: jwt expired]
+No token or token expired!
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 15:40:40 GMT+0400 (Московское время (зима)),
+  id: 1 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 15:48:08 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6NDA6NDAuNjg5WiIsImlkIjoxLCJpYXQiOjE0MDU0MjQ4MjgsImV4cCI6MTQwNTQyNDg4OH0.1hIr7RQtE_3DvBPazgwswCk3U26vIKjUyrH3LJ5EyAM',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 15:40:40 GMT+0400 (Московское время (зима)),
+     id: 1,
+     iat: 1405424828,
+     exp: 1405424888 } }
+
+-------------------------------------------
+
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 15:40:40 GMT+0400 (Московское время (зима)),
+  id: 1 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 15:49:08 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6NDA6NDAuNjg5WiIsImlkIjoxLCJpYXQiOjE0MDU0MjQ4ODgsImV4cCI6MTQwNTQyNDk0OH0.2EhniVImd73TS32gYYaOGQH-RiuDt1lAsQn1H90ZssU',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 15:40:40 GMT+0400 (Московское время (зима)),
+     id: 1,
+     iat: 1405424888,
+     exp: 1405424948 } }
+
+-------------------------------------------
+
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 15:48:13 GMT+0400 (Московское время (зима)),
+  id: 1 }
+Token is valid
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 15:49:08 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6NDA6NDAuNjg5WiIsImlkIjoxLCJpYXQiOjE0MDU0MjQ4ODgsImV4cCI6MTQwNTQyNDk0OH0.2EhniVImd73TS32gYYaOGQH-RiuDt1lAsQn1H90ZssU',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 15:48:13 GMT+0400 (Московское время (зима)),
+     id: 1 } }
+
+-------------------------------------------
+
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 15:48:16 GMT+0400 (Московское время (зима)),
+  id: 1 }
+Token is valid
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 15:49:08 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6NDA6NDAuNjg5WiIsImlkIjoxLCJpYXQiOjE0MDU0MjQ4ODgsImV4cCI6MTQwNTQyNDk0OH0.2EhniVImd73TS32gYYaOGQH-RiuDt1lAsQn1H90ZssU',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 15:48:16 GMT+0400 (Московское время (зима)),
+     id: 1 } }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 15:49:08 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6NDA6NDAuNjg5WiIsImlkIjoxLCJpYXQiOjE0MDU0MjQ4ODgsImV4cCI6MTQwNTQyNDk0OH0.2EhniVImd73TS32gYYaOGQH-RiuDt1lAsQn1H90ZssU',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: '2014-07-15T11:48:16.654Z',
+     id: 1 } }
+
+-------------------------------------------
+
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 15:59:38 GMT+0400 (Московское время (зима)),
+  id: 1 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:00:39 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6NTk6MzguNjA3WiIsImlkIjoxLCJpYXQiOjE0MDU0MjU1NzksImV4cCI6MTQwNTQyNTYzOX0.cCGqfQyrioFG6nADF-tO4kZoZPR5jcGu0npWuEUrIJI',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 15:59:38 GMT+0400 (Московское время (зима)),
+     id: 1,
+     iat: 1405425579,
+     exp: 1405425639 } }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:00:39 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6NTk6MzguNjA3WiIsImlkIjoxLCJpYXQiOjE0MDU0MjU1NzksImV4cCI6MTQwNTQyNTYzOX0.cCGqfQyrioFG6nADF-tO4kZoZPR5jcGu0npWuEUrIJI',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: '2014-07-15T11:59:38.607Z',
+     id: 1,
+     iat: 1405425579,
+     exp: 1405425639 } }
+
+-------------------------------------------
+
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 15:59:44 GMT+0400 (Московское время (зима)),
+  id: 1 }
+Token is valid
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:00:39 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6NTk6MzguNjA3WiIsImlkIjoxLCJpYXQiOjE0MDU0MjU1NzksImV4cCI6MTQwNTQyNTYzOX0.cCGqfQyrioFG6nADF-tO4kZoZPR5jcGu0npWuEUrIJI',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 15:59:44 GMT+0400 (Московское время (зима)),
+     id: 1 } }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:00:39 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6NTk6MzguNjA3WiIsImlkIjoxLCJpYXQiOjE0MDU0MjU1NzksImV4cCI6MTQwNTQyNTYzOX0.cCGqfQyrioFG6nADF-tO4kZoZPR5jcGu0npWuEUrIJI',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: '2014-07-15T11:59:44.369Z',
+     id: 1 } }
+
+-------------------------------------------
+
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'vk',
+  externalID: 87614291,
+  activeDirectoryStatus: '0',
+  createdAt: '2014-07-10T11:04:09.645Z',
+  updatedAt: Tue Jul 15 2014 15:39:23 GMT+0400 (Московское время (зима)),
+  id: 3 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:01:36 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoidmsiLCJleHRlcm5hbElEIjo4NzYxNDI5MSwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMCIsImNyZWF0ZWRBdCI6IjIwMTQtMDctMTBUMTE6MDQ6MDkuNjQ1WiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6Mzk6MjMuOTYxWiIsImlkIjozLCJpYXQiOjE0MDU0MjU2MzYsImV4cCI6MTQwNTQyNTY5Nn0.DBoD2SLDU4fcdsN9scVwoASZcPSjoDVuqYrf93f_AgQ',
+  adProfile: false }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:01:36 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoidmsiLCJleHRlcm5hbElEIjo4NzYxNDI5MSwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMCIsImNyZWF0ZWRBdCI6IjIwMTQtMDctMTBUMTE6MDQ6MDkuNjQ1WiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6Mzk6MjMuOTYxWiIsImlkIjozLCJpYXQiOjE0MDU0MjU2MzYsImV4cCI6MTQwNTQyNTY5Nn0.DBoD2SLDU4fcdsN9scVwoASZcPSjoDVuqYrf93f_AgQ',
+  adProfile: false }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  [Error: jwt expired]
+No token or token expired!
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 16:03:28 GMT+0400 (Московское время (зима)),
+  id: 1 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:04:29 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTI6MDM6MjguNjkyWiIsImlkIjoxLCJpYXQiOjE0MDU0MjU4MDksImV4cCI6MTQwNTQyNTg2OX0.HuzM6DNbqckmRdWpDs7hRPZbYHILGCoblM1FB9sHFPI',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 16:03:28 GMT+0400 (Московское время (зима)),
+     id: 1,
+     iat: 1405425809,
+     exp: 1405425869 } }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  [Error: jwt expired]
+No token or token expired!
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 16:03:28 GMT+0400 (Московское время (зима)),
+  id: 1 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:08:24 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTI6MDM6MjguNjkyWiIsImlkIjoxLCJpYXQiOjE0MDU0MjYwNDQsImV4cCI6MTQwNTQyNjEwNH0.svdr4Yvm4OxkvLvCSfXaU97op9srnx9qsgvuw1NZhGA',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 16:03:28 GMT+0400 (Московское время (зима)),
+     id: 1,
+     iat: 1405426044,
+     exp: 1405426104 } }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:08:24 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTI6MDM6MjguNjkyWiIsImlkIjoxLCJpYXQiOjE0MDU0MjYwNDQsImV4cCI6MTQwNTQyNjEwNH0.svdr4Yvm4OxkvLvCSfXaU97op9srnx9qsgvuw1NZhGA',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: '2014-07-15T12:03:28.692Z',
+     id: 1,
+     iat: 1405426044,
+     exp: 1405426104 } }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  [Error: jwt expired]
+No token or token expired!
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 16:03:28 GMT+0400 (Московское время (зима)),
+  id: 1 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:24:04 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTI6MDM6MjguNjkyWiIsImlkIjoxLCJpYXQiOjE0MDU0MjY5ODQsImV4cCI6MTQwNTQyNzA0NH0.NrraVeK2OUaTPlEr2enj-s1Qsvfr0TL8JAEr5Kby760',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 16:03:28 GMT+0400 (Московское время (зима)),
+     id: 1,
+     iat: 1405426984,
+     exp: 1405427044 } }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  [Error: jwt expired]
+No token or token expired!
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'local',
+  externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+  activeDirectoryStatus: '1',
+  createdAt: '2014-06-28T10:12:03.471Z',
+  updatedAt: Tue Jul 15 2014 16:03:28 GMT+0400 (Московское время (зима)),
+  id: 1 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:42:03 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoibG9jYWwiLCJleHRlcm5hbElEIjoiMWJhMzdiY2EtYWE2Ny00ZWMyLWFlODgtNjU4MGI1ODg1NTAyIiwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMSIsImNyZWF0ZWRBdCI6IjIwMTQtMDYtMjhUMTA6MTI6MDMuNDcxWiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTI6MDM6MjguNjkyWiIsImlkIjoxLCJpYXQiOjE0MDU0MjgwNjMsImV4cCI6MTQwNTQyODEyM30.aFnigBIU_x5fyb6u4UGa4BmAkWS7SwLQRsQOnsf1Rpk',
+  adProfile: 
+   { displayname: 'Александр Столбов',
+     userType: 'local',
+     externalID: '1ba37bca-aa67-4ec2-ae88-6580b5885502',
+     activeDirectoryStatus: '1',
+     createdAt: '2014-06-28T10:12:03.471Z',
+     updatedAt: Tue Jul 15 2014 16:03:28 GMT+0400 (Московское время (зима)),
+     id: 1,
+     iat: 1405428063,
+     exp: 1405428123 } }
+
+-------------------------------------------
+
+go to auth form...
+token get user:  { displayname: 'Александр Столбов',
+  userType: 'vk',
+  externalID: 87614291,
+  activeDirectoryStatus: '0',
+  createdAt: '2014-07-10T11:04:09.645Z',
+  updatedAt: Tue Jul 15 2014 15:39:23 GMT+0400 (Московское время (зима)),
+  id: 3 }
+update token...
+VERIFY TOKEN...
+Verified errors:  null
+Token exp:  Tue Jul 15 2014 16:46:58 GMT+0400 (Московское время (зима))
+get user data:  { guest: false,
+  profile: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkaXNwbGF5bmFtZSI6ItCQ0LvQtdC60YHQsNC90LTRgCDQodGC0L7Qu9Cx0L7QsiIsInVzZXJUeXBlIjoidmsiLCJleHRlcm5hbElEIjo4NzYxNDI5MSwiYWN0aXZlRGlyZWN0b3J5U3RhdHVzIjoiMCIsImNyZWF0ZWRBdCI6IjIwMTQtMDctMTBUMTE6MDQ6MDkuNjQ1WiIsInVwZGF0ZWRBdCI6IjIwMTQtMDctMTVUMTE6Mzk6MjMuOTYxWiIsImlkIjozLCJpYXQiOjE0MDU0MjgzNTgsImV4cCI6MTQwNTQyODQxOH0.fhDh4EUo7FVcVAG5G8D2KVUDi88M3AWAqKkTNgXbm8A',
+  adProfile: false }
+
+-------------------------------------------
+
+VERIFY TOKEN...
+Verified errors:  [Error: jwt expired]
+No token or token expired!
+go to auth form...
